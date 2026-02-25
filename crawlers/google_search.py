@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 
 # .envファイルを読み込む
-load_dotenv()
+load_dotenv(override=True)
 
 def run_google_search(query, num_results=3):
     """
